@@ -1,4 +1,5 @@
 import {Schema} from "mongoose";
+import mongoose from "mongoose";
 
 const userSchema = new Schema ({
     name: {
@@ -15,7 +16,7 @@ const userSchema = new Schema ({
         required : true,
     },
     token: {
-        type:string,
+        type:String,
     }
     
 });
